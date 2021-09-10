@@ -1,5 +1,5 @@
 import Banner from '../Banner/Banner';
-import Nav from '../Nav/Nav';
+import Nav from '../../containers/Nav/Nav';
 import Features from '../Features/Features';
 import More from '../More/More';
 import Footer from '../Footer/Footer';

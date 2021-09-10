@@ -1,6 +1,6 @@
 import React from 'react';
 import { nanoid } from 'nanoid';
-import Button from '../Button/Button';
+import Button from '../../components/Button/Button';
 import logo from '../../assets/images/logo.svg';
 import './Nav.css';
 
