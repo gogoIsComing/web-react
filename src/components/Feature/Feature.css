@@ -1,0 +1,46 @@
+.feature {
+  max-width: 415px;
+  margin: 0 auto;
+}
+
+.feature + .feature {
+  margin-top: 50px;
+}
+
+.feature div {
+  width: 86px;
+  height: 86px;
+  margin: 0 auto;
+}
+
+.feature-img-process {
+  background: url('../../assets/images/icon-snappy-process.svg');
+}
+.feature-img-prices {
+  background: url('../../assets/images/icon-affordable-prices.svg');
+}
+.feature-img-people {
+  background: url('../../assets/images/icon-people-first.svg');
+}
+
+.feature h2 {
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+}
+
+.feature p {
+  margin: 15px 0 0;
+  color: hsl(273, 4%, 51%);
+}
+
+@media (min-width: 1200px) {
+  .feature + .feature {
+    margin-top: 0;
+  }
+
+  .feature div {
+    margin-left: 0;
+  }
+}

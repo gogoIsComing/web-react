@@ -1,0 +1,47 @@
+.column {
+  margin-top: 35px;
+}
+
+.column + .column {
+  margin-top: 40px;
+}
+
+span,
+.column a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+span {
+  display: block;
+  color: hsl(273, 4%, 51%);
+}
+
+.column a {
+  color: hsl(256, 26%, 20%);
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+li + li {
+  margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+  .column {
+    flex: 1;
+  }
+
+  .column a:hover {
+    text-decoration: underline;
+  }
+}
