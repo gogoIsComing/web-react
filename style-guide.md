@@ -11,37 +11,37 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark Violet: hsl(256, 26%, 20%) *
-- Grayish Blue: hsl(216, 30%, 68%)
+- Bright Blue: hsl(220, 98%, 61%)
+- Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%) *
 
 ### Neutral
 
-- Very Dark Violet: hsl(270, 9%, 17%) *
-- Dark Grayish Violet: hsl(273, 4%, 51%) *
-- Very Light Gray: hsl(0, 0%, 98%) *
+### Light Theme
 
-hsl(258, 14%, 76%) *
+- Very Light Gray: hsl(0, 0%, 98%) * body
+- white: * todo-list-section, form
+- Very Light Grayish Blue: hsl(236, 33%, 92%) * checked-span
+- Light Grayish Blue: hsl(233, 11%, 84%) * todo-control, checked-span, todo, checkbox
+- Dark Grayish Blue: hsl(236, 9%, 61%) * button, drag
+- Very Dark Grayish Blue: hsl(235, 19%, 35%) * input, ul
+
+### Dark Theme
+
+- Very Dark Blue: hsl(235, 21%, 11%) * body
+- Very Dark Desaturated Blue: hsl(235, 24%, 19%) * todo-list-section, form
+- Light Grayish Blue: hsl(234, 39%, 85%) * input, ul
+- Light Grayish Blue (hover): hsl(236, 33%, 92%) *
+- Dark Grayish Blue: hsl(234, 11%, 52%) * button
+- Very Dark Grayish Blue: hsl(233, 14%, 35%) * todo-control, checked-span, checkbox
+- Very Dark Grayish Blue: hsl(237, 14%, 26%) * drag , todo
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 16px
+- Font size: 18px
 
-### Headings
+### Font
 
-- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
-- Weights: 400
-
-### Body
-
-- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
 - Weights: 400, 700
-
-## Icons
-
-You can use either use the social icons provided or load in a font icon library. Some library suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)

@@ -1,0 +1,45 @@
+li {
+  list-style: none;
+}
+
+.todo-light {
+  border-bottom: 1px solid hsl(233, 11%, 84%);
+}
+
+.todo-dark {
+  border-bottom: 1px solid hsl(237, 14%, 26%);
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.cross {
+  width: 18px;
+  height: 18px;
+  background: url('../../assets/images/icon-cross.svg');
+  margin-left: auto;
+}
+
+.checked-span-light,
+.checked-span-dark {
+  text-decoration: line-through;
+}
+
+.checked-span-light {
+  color: hsl(233, 11%, 84%);
+}
+
+.checked-span-dark {
+  color: hsl(233, 14%, 35%);
+}
+
+@media (min-width: 1200px) {
+  .cross {
+    display: none;
+  }
+
+  li:hover .cross {
+    display: block;
+  }
+}

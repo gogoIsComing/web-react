@@ -1,0 +1,204 @@
+.body-light,
+.body-dark {
+  min-height: 100vh;
+}
+
+.body-light {
+  background: hsl(0, 0%, 98%);
+}
+
+.body-dark {
+  background: hsl(235, 21%, 11%);
+}
+
+.header-light,
+.header-dark {
+  padding: 60px 20px;
+}
+
+.header-light {
+  background: url('../../assets/images/bg-mobile-light.jpg');
+  background-size: cover;
+}
+
+.header-dark {
+  background: url('../../assets/images/bg-mobile-dark.jpg');
+  background-size: cover;
+}
+
+.wrapper,
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper span {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.mode-icon-light,
+.mode-icon-dark {
+  width: 26px;
+  height: 26px;
+}
+
+.mode-icon-light:hover,
+.mode-icon-dark:hover {
+  cursor: pointer;
+}
+
+.mode-icon-light {
+  background: url('../../assets/images/icon-moon.svg');
+}
+
+.mode-icon-dark {
+  background: url('../../assets/images/icon-sun.svg');
+}
+
+form,
+li,
+.todo-control-light,
+.todo-control-dark,
+.todo-filter-section-light,
+.todo-filter-section-dark {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+form,
+li {
+  column-gap: 15px;
+}
+
+form,
+.todo-filter-section-light,
+.todo-filter-section-dark {
+  border-radius: 5px;
+}
+
+.form-light {
+  background: white;
+}
+
+.form-dark {
+  background: hsl(235, 24%, 19%);
+}
+
+form {
+  margin-top: 60px;
+}
+
+.checkbox-light {
+  border: 1px solid hsl(233, 11%, 84%);
+}
+
+.checkbox-dark {
+  border: 1px solid hsl(233, 14%, 35%);
+}
+
+.checkbox,
+.checked-checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  box-sizing: border-box;
+}
+
+.checked-checkbox {
+  border: none;
+  background: url('../../assets/images/icon-check.svg') no-repeat center,
+    linear-gradient(to bottom right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.checkbox:hover {
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.checkbox.checkbox-light:hover {
+  background: linear-gradient(white, white),
+    radial-gradient(circle at top left, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.checkbox.checkbox-dark:hover {
+  background: linear-gradient(hsl(235, 24%, 19%), hsl(235, 24%, 19%)),
+    radial-gradient(circle at top left, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.checked-checkbox:hover {
+  cursor: pointer;
+}
+
+form input,
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+form input {
+  flex: 1;
+}
+
+.input-light {
+  color: hsl(235, 19%, 35%);
+}
+
+.input-dark {
+  color: hsl(234, 39%, 85%);
+}
+
+button {
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+main {
+  padding: 0 20px 70px;
+}
+
+.info-light,
+.info-dark {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.info-light {
+  color: hsl(236, 9%, 61%);
+}
+
+.info-dark {
+  color: hsl(237, 14%, 26%);
+}
+
+@media (min-width: 1200px) {
+  .header-light {
+    background: url('../../assets/images/bg-desktop-light.jpg');
+    background-size: cover;
+  }
+
+  .header-dark {
+    background: url('../../assets/images/bg-desktop-dark.jpg');
+    background-size: cover;
+  }
+}

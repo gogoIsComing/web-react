@@ -1,0 +1,63 @@
+.todo-filter-section-light,
+.todo-filter-section-dark {
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.todo-filter-section-light {
+  background: white;
+}
+
+.todo-filter-section-dark {
+  background: hsl(235, 24%, 19%);
+}
+
+.todo-filter-section-light button,
+.todo-filter-section-dark button {
+  font-weight: 700;
+}
+
+.todo-filter-section-light .button-light {
+  color: hsl(236, 9%, 61%);
+}
+.todo-filter-section-dark .button-dark {
+  color: hsl(234, 11%, 52%);
+}
+
+.todo-filter-section-dark .button-dark:hover {
+  color: hsl(236, 33%, 92%);
+}
+
+.todo-filter-section-light .button-light:hover {
+  color: hsl(235, 19%, 35%);
+}
+
+.todo-filter-section-dark .active-filter-button:hover,
+.todo-filter-section-light .active-filter-button:hover {
+  color: hsl(220, 98%, 61%);
+}
+
+.todo-filter-section-light .active-filter-button,
+.todo-filter-section-dark .active-filter-button {
+  color: hsl(220, 98%, 61%);
+}
+
+.todo-control-light .todo-filter-section-light,
+.todo-control-dark .todo-filter-section-dark {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  main > .todo-filter-section-light,
+  main > .todo-filter-section-dark {
+    display: none;
+  }
+
+  .todo-control-light .todo-filter-section-light,
+  .todo-control-dark .todo-filter-section-dark {
+    display: flex;
+    margin-top: 0;
+  }
+}

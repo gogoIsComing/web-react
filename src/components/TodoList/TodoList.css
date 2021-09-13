@@ -1,0 +1,50 @@
+.todo-list-section-light,
+.todo-list-section-dark {
+  border-radius: 5px;
+  margin-top: -40px;
+}
+
+.todo-list-section-light {
+  background: white;
+}
+
+.todo-list-section-dark {
+  background: hsl(235, 24%, 19%);
+}
+
+.ul-light {
+  color: hsl(235, 19%, 35%);
+}
+
+.ul-dark {
+  color: hsl(234, 39%, 85%);
+}
+
+.todo-control-light,
+.todo-control-dark {
+  justify-content: space-between;
+}
+
+.todo-control-light {
+  color: hsl(233, 11%, 84%);
+}
+
+.todo-control-dark {
+  color: hsl(233, 14%, 35%);
+}
+
+.todo-control-light .clear {
+  color: hsl(233, 11%, 84%);
+}
+
+.todo-control-dark .clear {
+  color: hsl(233, 14%, 35%);
+}
+
+.todo-control-dark .clear:hover {
+  color: hsl(236, 33%, 92%);
+}
+
+.todo-control-light .clear:hover {
+  color: hsl(235, 19%, 35%);
+}
