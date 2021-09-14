@@ -141,6 +141,8 @@ class App extends React.Component {
 
     const inputClassList = this.state.isLight ? 'input-light' : 'input-dark';
 
+    const attributionClassList = this.state.isLight ? 'attribution-light' : 'attribution-dark'
+
     const list = this.state.list.filter(filterMap[this.state.filterType]);
     const activeItemsCount = this.state.list.filter(filterMap['active']).length;
     return (
@@ -187,6 +189,14 @@ class App extends React.Component {
           />
           <span className={infoClassList}>Drag and drop to reorder list</span>
         </main>
+
+        <div class={attributionClassList}>
+          Challenge by{' '}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by <a href="#">Ahmad AlZoubi</a>.
+        </div>
       </div>
     );
   }

@@ -191,6 +191,33 @@ main {
   color: hsl(237, 14%, 26%);
 }
 
+.attribution-light,
+.attribution-dark {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution-light {
+  color: black;
+}
+
+.attribution-dark {
+  color: white;
+}
+
+.attribution-light a,
+.attribution-dark a {
+  font-size: 16px;
+}
+
+.attribution-light a {
+  color: hsl(220, 98%, 61%);
+}
+
+.attribution-dark a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 1200px) {
   .header-light {
     background: url('../../assets/images/bg-desktop-light.jpg');
