@@ -192,7 +192,7 @@ class App extends React.Component {
           <span className={infoClassList}>Drag and drop to reorder list</span>
         </main>
 
-        <div class={attributionClassList}>
+        <div className={attributionClassList}>
           Challenge by{' '}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
