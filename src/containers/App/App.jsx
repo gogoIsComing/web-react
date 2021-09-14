@@ -141,7 +141,9 @@ class App extends React.Component {
 
     const inputClassList = this.state.isLight ? 'input-light' : 'input-dark';
 
-    const attributionClassList = this.state.isLight ? 'attribution-light' : 'attribution-dark'
+    const attributionClassList = this.state.isLight
+      ? 'attribution-light'
+      : 'attribution-dark';
 
     const list = this.state.list.filter(filterMap[this.state.filterType]);
     const activeItemsCount = this.state.list.filter(filterMap['active']).length;
